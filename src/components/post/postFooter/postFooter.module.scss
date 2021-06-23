@@ -1,0 +1,21 @@
+.postFooter {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  color: rgba(235, 235, 245, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .dealing{
+    display: flex;
+    align-items: center;
+    img {
+      margin-right:1rem ;
+    }
+  }
+  .comments {
+
+  }
+}
+.commentsRej {
+  color: #0a84ff;
+}

@@ -1,0 +1,28 @@
+@import "src/styles/mixins.module";
+@import "src/styles/variables.module";
+
+.mainBlockTitle {
+  @include flex(center, space-between, row);
+  border-bottom: solid 1px #979797;
+  padding-bottom: 1.8rem;
+  margin-bottom: 3.5rem;
+  .wrapper{
+    display: flex;
+    align-items: center;
+    .title {
+      font-size: 3.6rem;
+      line-height: 0.67;
+      letter-spacing: -0.5px;
+      color: #f7b500;
+    }
+    p {
+      font-size: 1.2rem;
+      font-style: italic;
+      line-height: 1.33;
+      letter-spacing: -0.19px;
+      color: #c5d2e3;
+      margin-left: 3.8rem;
+    }
+  }
+
+}

@@ -1,0 +1,9 @@
+@import 'src/styles/variables.module.scss';
+@import 'src/styles/mixins.module.scss';
+.nav {
+
+    .navItems{
+       @include flex (space-between,center,row);
+
+    }
+}

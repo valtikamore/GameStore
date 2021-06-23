@@ -1,0 +1,21 @@
+@import 'src/styles/variables.module.scss';
+@import 'src/styles/mixins.module.scss';
+
+.headerWrapper{
+  background-color:$secondary ;
+  .header {
+    @include flex ('','',row);
+    width: 104.3rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+
+    .blackBox{
+      height: 9rem;
+      width: 9rem;
+      background-color: black;
+      margin-right: 3rem;
+    }
+  }
+}
+
+

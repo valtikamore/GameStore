@@ -1,0 +1,21 @@
+@import "src/styles/variables.module";
+@import "src/styles/mixins.module";
+
+.post {
+  padding: 1.5rem 1.5rem 1.3rem 1.6rem;
+  border-radius: 10px;
+  width: 48.2rem;
+  background-color: #27272c;
+  margin: 1.5rem 0 1.5rem 0 ;
+}
+.message {
+  font-size: 1.3rem;
+  line-height: 1.38;
+  color: $very-light-pink;
+  margin: 1.3rem 0 1.5rem 0;
+  * div {
+    color: #0a84ff;
+    display: inline;
+  }
+}
+

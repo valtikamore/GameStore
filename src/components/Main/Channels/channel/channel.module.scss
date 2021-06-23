@@ -1,0 +1,23 @@
+.channel{
+  display: flex;
+  img{
+    height: 4.8rem;
+    width: 4.8rem;
+    object-fit: cover;
+  }
+  .about{
+    margin-top: 1rem;
+    .name {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: -0.34px;
+      color: #ffffff;
+    }
+    .followers{
+      font-size: 1.2rem;
+      letter-spacing: -0.29px;
+      color: #6f747e;
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+.searchInputWrapper{
+  position: relative;
+  .searchInput {
+    width: 61.4rem;
+    height: 4.4rem;
+    padding: 1.1rem 1.6rem 1.1rem 1.8rem;
+    border-radius: 0.6rem;
+    background-color: #111113;
+  }
+  .searchIcon{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
+
+}
