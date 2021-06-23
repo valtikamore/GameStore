@@ -1,0 +1,15 @@
+@import 'src/styles/mixins.module.scss';
+@import 'src/styles/variables.module';
+ul {
+  li {
+    padding-bottom: 1rem;
+    color:$grey;
+  }
+  li:first-child{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -0.24px;
+    color: #a6a6a6;
+  }
+}

@@ -1,0 +1,32 @@
+@import 'src/styles/variables.module';
+@import 'src/styles/mixins.module';
+.wrapper{
+  background-color:$secondary;
+  .box {
+    width: 103.4rem;
+    margin: 0 auto;
+    padding: 3.3rem 3.3rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1.2rem;
+    .lists{
+      grid-column: 1/5;
+      display: flex;
+      justify-content: space-between;
+
+      ul {
+        margin-right: 3.6rem;
+      }
+    }
+    .applicationWrapper {
+      grid-column: 8/11;
+    }
+    .applicationOsApple{
+      grid-column: 11/12;
+    }
+    .applicationOsAndroid{
+      grid-column: 12/-1;
+    }
+
+  }
+}

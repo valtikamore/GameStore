@@ -1,7 +1,7 @@
 import React from 'react'
+import styles from './channel.module.scss'
 
-
-export const Friend = ({}) => {
+export const Channel = ({image,name,usersCount}) => {
     return (
         <li className={styles.channel}>
             <img src={image} alt={name}/>

@@ -1,0 +1,24 @@
+@import 'src/styles/mixins.module';
+@import 'src/styles/variables.module';
+.wrapper{
+  background-color: black;
+  .box{
+    width: 103.4rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.6rem 3.8rem;
+    small {
+      font-size: 1.1rem;
+      color:$grey ;
+    }
+    .payload{
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 1.7rem;
+      }
+    }
+  }
+}

@@ -1,19 +1,26 @@
-
 import {Header} from "./components/header/Header";
-import {Main} from "./components/Main/Main";
+import {GameHub} from "./components/Main/GameHub/GameHub";
 import React from "react";
+import {UpcomingGames} from "./components/Main/UpcommingGames/upcomingGames";
+import {Mail} from "./components/Main/Mail/Mail";
+import {SubFooter} from "./components/Main/subFooter/subFooter";
+import {Footer} from "./components/footer/footer";
+import Coverflow from 'react-coverflow';
+import {Slider} from "./components/slider/slider";
+function App({data}) {
 
-function App() {
   return (
     <div>
         <Header/>
-        <div style={{height:'600px',width:'100%'}}>
-            slider
-        </div>
-        <Main/>
-        <footer>
-
-        </footer>
+        <Slider/>
+        <main>
+            <GameHub posts={data.posts} channels={data.channels}
+                     friends={data.friends}/>
+            <UpcomingGames cards={data.cards}/>
+            <Mail/>
+            <SubFooter/>
+        </main>
+        <Footer/>
     </div>
   );
 }

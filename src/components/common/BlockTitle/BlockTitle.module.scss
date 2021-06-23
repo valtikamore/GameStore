@@ -1,11 +1,12 @@
-@import "src/styles/mixins.module";
-@import "src/styles/variables.module";
+@import "../../../styles/mixins.module";
+@import "../../../styles/variables.module";
 
-.mainBlockTitle {
+.BlockTitle {
   @include flex(center, space-between, row);
   border-bottom: solid 1px #979797;
   padding-bottom: 1.8rem;
   margin-bottom: 3.5rem;
+  color:$very-light-pink;
   .wrapper{
     display: flex;
     align-items: center;
@@ -13,7 +14,7 @@
       font-size: 3.6rem;
       line-height: 0.67;
       letter-spacing: -0.5px;
-      color: #f7b500;
+
     }
     p {
       font-size: 1.2rem;
@@ -25,4 +26,7 @@
     }
   }
 
+}
+.yellow{
+  color: #f7b500;
 }

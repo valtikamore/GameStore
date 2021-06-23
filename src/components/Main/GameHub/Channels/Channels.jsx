@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Channels.module.scss'
-import {SubTitle} from "../../common/subtitle/subtitle";
+import {SubTitle} from "../../../common/subtitle/subtitle";
 import {Channel} from "./channel/channel";
-import {Button} from "../../common/Button/Button";
+import {Button} from "../../../common/Button/Button";
 
 export const Channels = ({channels}) => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './FiendFriends.module.scss'
-import {SubTitle} from "../../common/subtitle/subtitle";
-import {Button} from "../../common/Button/Button";
+import {SubTitle} from "../../../common/subtitle/subtitle";
+import {Button} from "../../../common/Button/Button";
 import {Friend} from "./Friend/Friend";
 
 
@@ -17,7 +17,7 @@ export const FindFriends = ({friends}) => {
                 })}
             </ul>
             <Button>
-                Find More
+                Discover All
             </Button>
         </div>
     )

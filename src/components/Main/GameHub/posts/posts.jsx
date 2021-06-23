@@ -1,6 +1,6 @@
 import React from 'react'
-import {SubTitle} from "../../common/subtitle/subtitle";
-import {Post} from "../../post/post";
+import {SubTitle} from "../../../common/subtitle/subtitle";
+import {Post} from "../../../post/post";
 
 export const Posts = ({posts}) => {
     return (

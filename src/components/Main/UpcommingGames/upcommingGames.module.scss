@@ -1,0 +1,21 @@
+@import 'src/styles/variables.module';
+@import 'src/styles/mixins.module';
+.wrapper{
+  background-color:$third;
+  padding-top: 4rem;
+  .box{
+    width: 104.3rem;
+    margin: 0 auto;
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-column-gap: 2rem;
+      margin-bottom: 3.1rem;
+    }
+    .flex {
+     @include flex (center,center,row);
+      padding-bottom: 6rem;
+    }
+  }
+}

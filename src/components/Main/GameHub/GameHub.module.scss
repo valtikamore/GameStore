@@ -1,3 +1,5 @@
+@import '../../../styles/variables.module';
+@import '../../../styles/mixins.module';
 .container{
   width: 104.3rem;
   margin: 0 auto;
@@ -6,6 +8,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 1.2rem;
+    margin-bottom: 3.3rem;
   }
+
 }
 

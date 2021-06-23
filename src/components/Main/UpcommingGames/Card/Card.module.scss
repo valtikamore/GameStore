@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  .fake {
+    width: 19.2rem;
+    height: 25.7rem;
+    background-color: #a335ef;
+    margin-bottom: 1.2rem;
+    position: relative;
+    img {
+      position: absolute;
+      top: 1.4rem;
+      right: 1.4rem;
+    }
+  }
+
+  .description {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.22px;
+    color: #ffffff;
+    margin-bottom: 1.1rem;
+  }
+
+  .price {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: rgba(235, 235, 245, 0.6);
+    margin-bottom: 1rem;
+  }
+
+  .discont {
+    font-size: 1.3rem;
+    line-height: 1.48;
+    color: rgba(235, 235, 245, 0.4);
+    text-decoration: underline;
+    margin-bottom: 1rem;
+
+    .newPrice {
+      font-size: 1.3rem;
+      font-weight: bold;
+      line-height: 1.48;
+      letter-spacing: -0.9px;
+      color: #a335ef;
+
+    }
+  }
+}
