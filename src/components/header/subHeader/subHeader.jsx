@@ -10,11 +10,11 @@ export const SubHeader = () => {
     return (
         <div className={styles.subHeader}>
             <SearchInput/>
-            <img src={wallet} alt=""/>
-            <img src={bag} alt=""/>
-            <img src={bell} alt=""/>
-            <img src={heart} alt=""/>
-            <img src={profile} alt=""/>
+            <img src={profile} alt="profile"/>
+            <img src={wallet} alt="wallet"/>
+            <img src={bell} alt="bell"/>
+            <img src={heart} alt="heart"/>
+            <img src={bag} alt="bag"/>
         </div>
     )
 }

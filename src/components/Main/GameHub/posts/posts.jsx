@@ -8,8 +8,9 @@ export const Posts = ({posts}) => {
             <SubTitle>
                 Latest posts
             </SubTitle>
-            {posts.map(post => {
-                return <Post userImage={post.userImage}
+            {posts.map((post,index) => {
+                return <Post    key={`${index} ${post.name}`}
+                    userImage={post.userImage}
                              userName={post.username}
                              userNick={post.userNick}
                              followers={post.followers}

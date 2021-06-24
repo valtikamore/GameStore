@@ -11,8 +11,8 @@ export const Channels = ({channels}) => {
                 Channels
             </SubTitle>
             <ul>
-                {channels.map(channel => {
-                    return <Channel image={channel.image} usersCount={channel.usersCount} name={channel.name}/>
+                {channels.map((channel,index) => {
+                    return <Channel key={`${channel.name} ${index}`} image={channel.image} usersCount={channel.usersCount} name={channel.name}/>
                 })}
             </ul>
             <Button>

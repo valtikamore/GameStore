@@ -8,8 +8,8 @@ export const Header = () => {
     return (
         <div className={styles.headerWrapper}>
             <header className={styles.header}>
-                <div className={styles.blackBox}></div>
-                <div>
+                <div className={styles.blackBox}> </div>
+                <div className={styles.wrapper}>
                     <SubHeader/>
                     <SupHeader/>
                 </div>

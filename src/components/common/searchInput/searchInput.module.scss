@@ -6,6 +6,12 @@
     padding: 1.1rem 1.6rem 1.1rem 1.8rem;
     border-radius: 0.6rem;
     background-color: #111113;
+    border: none;
+    color:white;
+    &:focus {
+      border: none;
+      outline: none;
+    }
   }
   .searchIcon{
     position: absolute;
@@ -13,4 +19,10 @@
     right: 1.5rem;
   }
 
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
 }

@@ -17,8 +17,8 @@ export const SupHeader = () => {
     return (
         <nav className={styles.nav}>
             <ul className={styles.navItems}>
-                {menuItems.map(item => {
-                    return <MenuItem name={item.name} icon={item.icon} active={item.active} />
+                {menuItems.map((item,index) => {
+                    return <MenuItem key={`${item} ${index}`} name={item.name} icon={item.icon} active={item.active} />
                 })}
 
             </ul>

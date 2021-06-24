@@ -13,8 +13,8 @@ export const UpcomingGames = ({cards}) => {
                     Upcoming Games
                 </BlockTitle>
                 <section className={styles.cards}>
-                    {cards.map(card => {
-                        return  <Card description={card.description} price={card.price} discont={card.newPrice}/>
+                    {cards.map((card,index) => {
+                        return  <Card key={`${card.name} ${index}`} description={card.description} price={card.price} discont={card.newPrice}/>
                     })}
                 </section>
                 <div className={styles.flex}>

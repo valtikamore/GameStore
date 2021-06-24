@@ -3,7 +3,6 @@
 .nav {
 
     .navItems{
-       @include flex (space-between,center,row);
-
+       @include flex ('',space-between,row);
     }
 }

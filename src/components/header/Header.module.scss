@@ -4,16 +4,19 @@
 .headerWrapper{
   background-color:$secondary ;
   .header {
-    @include flex ('','',row);
+    display: flex;
+
     width: 104.3rem;
     margin: 0 auto;
     padding-top: 1rem;
-
     .blackBox{
       height: 9rem;
       width: 9rem;
       background-color: black;
       margin-right: 3rem;
+    }
+    .wrapper {
+      width: 100%;
     }
   }
 }

@@ -57,3 +57,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.swiper-pagination {
+  bottom: 0;
+  padding-bottom: 7.3rem;
+  color: white;
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 4.2rem;
+  padding-bottom: 6.9rem;
+
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+  height: 350px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-pagination-bullet {
+  background: black;
+  opacity: 70%;
+}
+.swiper-pagination-bullet-active{
+  background: white;
+}
+

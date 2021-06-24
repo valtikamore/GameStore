@@ -12,8 +12,8 @@ export const FindFriends = ({friends}) => {
                 Who to follow?
             </SubTitle>
             <ul>
-                {friends.map(friend => {
-                    return <Friend image={friend.image} usersCount={friend.usersCount} name={friend.name}/>
+                {friends.map((friend,index) => {
+                    return <Friend key={`${friend.name}${index}`} image={friend.image} usersCount={friend.usersCount} name={friend.name}/>
                 })}
             </ul>
             <Button>

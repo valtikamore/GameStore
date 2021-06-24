@@ -3,11 +3,12 @@
 .container{
   width: 104.3rem;
   margin: 0 auto;
+
   .gameHub{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 1.2rem;
+    grid-column-gap: 3.6rem;
     margin-bottom: 3.3rem;
   }
 

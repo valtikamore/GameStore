@@ -1,39 +1,40 @@
-import React from 'react'
-import Coverflow from "react-coverflow";
-import valhalla from '../../assets/HeadreIcons/bitmap@3x.jpg'
-import valhalla2 from '../../assets/HeadreIcons/bitmap@3x.jpg'
-export const Slider = () => {
-    const fn = function () {
-        /* do your action */
-    }
-    return (
-        <div>
-            <Coverflow width='100%' height="300"
-                       displayQuantityOfSide={2}
-                       navigation={false}
-                       clickable={true}
-                       active={0}
-                       infiniteScroll={true}
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import valhala from '../../assets/HeadreIcons/valhala.png'
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/effect-coverflow/effect-coverflow.min.css"
+import "swiper/components/pagination/pagination.min.css"
+import SwiperCore, { Navigation, Pagination, EffectCoverflow } from 'swiper';
 
-            >
-                <div
-                    onClick={() => fn()}
-                    onKeyDown={() => fn()}
-                    role="menuitem"
-                    tabIndex="0"
-                >
-                    <img
-                        src={valhalla}
-                        alt='title or description'
-                        style={{
-                            display: 'block',
-                            width: '100%',
-                        }}
-                    />
-                </div>
-                <img src={valhalla} />
-                <img src={valhalla2}  />
-            </Coverflow>
-        </div>
+SwiperCore.use([Navigation,EffectCoverflow,Pagination,]);
+
+
+export const Slider = () => {
+    return (
+        <>
+            <Swiper effect={'coverflow'}
+                    autoplay={{
+                        delay:100
+                    }}
+
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={'auto'}
+                    coverflowEffect={{
+                "rotate": 70,
+                "stretch": 10,
+                "depth": 100,
+                "modifier": 1,
+
+            }} pagination={true} className="mySwiper">
+                <SwiperSlide>
+                    <img src={valhala} alt=""/>
+                </SwiperSlide>
+                <SwiperSlide title={'erererer'}><img src={valhala} alt=""/></SwiperSlide>
+                <SwiperSlide><img src={valhala} alt=""/></SwiperSlide>
+                <SwiperSlide><img src={valhala} alt=""/></SwiperSlide>
+            </Swiper>
+        </>
     )
 }

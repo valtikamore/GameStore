@@ -9,6 +9,11 @@ import wow from './assets/channels/wow.png'
 import pubg from './assets/channels/pubg.png'
 import over from './assets/channels/over.png'
 
+import man from './assets/addNewfriend/man.png'
+import fairy from './assets/addNewfriend/fairy.png'
+import man2 from './assets/addNewfriend/man2.png'
+
+
 
 const rootData = {
     posts: [
@@ -58,14 +63,14 @@ const rootData = {
         {image: diablo, name: '#Diablo III', usersCount: '195K'},
     ],
     friends: [
-        {image: wow, name: 'XMegatronX', usersCount: '325.860 Followers'},
-        {image: fortnite, name: 'Rikimarue', usersCount: '285.020 Followers'},
-        {image: wow, name: 'Wolfie', usersCount: '433.642 Followers'},
-        {image: pubg, name: 'Rikimarue', usersCount: '312.245 Followers'},
-        {image: hs, name: 'MrPaladin', usersCount: '285.020 Followers'},
-        {image: cod, name: 'Supreme', usersCount: '433.642 Followers'},
-        {image: over, name: 'Murmur', usersCount: '312.245 Followers'},
-        {image: diablo, name: 'Loremiosum', usersCount: '312.245 Followers'},
+        {image: man, name: 'XMegatronX', usersCount: '325.860 Followers'},
+        {image: fairy, name: 'Rikimarue', usersCount: '285.020 Followers'},
+        {image: man2, name: 'Wolfie', usersCount: '433.642 Followers'},
+        {image: fairy, name: 'Rikimarue', usersCount: '312.245 Followers'},
+        {image: man, name: 'MrPaladin', usersCount: '285.020 Followers'},
+        {image: fairy, name: 'Supreme', usersCount: '433.642 Followers'},
+        {image: man, name: 'Murmur', usersCount: '312.245 Followers'},
+        {image: fairy, name: 'Loremiosum', usersCount: '312.245 Followers'},
     ],
     cards:[
         {description:'World of Warcraft: Shadowlands (Heroic Edition)',price:'€22.50',newPrice:'62% OFF'},
