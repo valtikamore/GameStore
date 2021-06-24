@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/GameStore/static/css/main.29b40fd7.chunk.css",
-    "main.js": "/GameStore/static/js/main.8265cb24.chunk.js",
-    "main.js.map": "/GameStore/static/js/main.8265cb24.chunk.js.map",
+    "main.css": "/GameStore/static/css/main.4a9b5134.chunk.css",
+    "main.js": "/GameStore/static/js/main.35fab846.chunk.js",
+    "main.js.map": "/GameStore/static/js/main.35fab846.chunk.js.map",
     "runtime-main.js": "/GameStore/static/js/runtime-main.1949780f.js",
     "runtime-main.js.map": "/GameStore/static/js/runtime-main.1949780f.js.map",
     "static/css/2.0957b89b.chunk.css": "/GameStore/static/css/2.0957b89b.chunk.css",
-    "static/js/2.3341116e.chunk.js": "/GameStore/static/js/2.3341116e.chunk.js",
-    "static/js/2.3341116e.chunk.js.map": "/GameStore/static/js/2.3341116e.chunk.js.map",
+    "static/js/2.3b376dda.chunk.js": "/GameStore/static/js/2.3b376dda.chunk.js",
+    "static/js/2.3b376dda.chunk.js.map": "/GameStore/static/js/2.3b376dda.chunk.js.map",
     "index.html": "/GameStore/index.html",
     "static/css/2.0957b89b.chunk.css.map": "/GameStore/static/css/2.0957b89b.chunk.css.map",
-    "static/css/main.29b40fd7.chunk.css.map": "/GameStore/static/css/main.29b40fd7.chunk.css.map",
-    "static/js/2.3341116e.chunk.js.LICENSE.txt": "/GameStore/static/js/2.3341116e.chunk.js.LICENSE.txt",
+    "static/css/main.4a9b5134.chunk.css.map": "/GameStore/static/css/main.4a9b5134.chunk.css.map",
+    "static/js/2.3b376dda.chunk.js.LICENSE.txt": "/GameStore/static/js/2.3b376dda.chunk.js.LICENSE.txt",
     "static/media/addFriend.82626610.svg": "/GameStore/static/media/addFriend.82626610.svg",
     "static/media/apple.f6997cee.svg": "/GameStore/static/media/apple.f6997cee.svg",
     "static/media/bag.969fd7d5.svg": "/GameStore/static/media/bag.969fd7d5.svg",
@@ -47,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.1949780f.js",
     "static/css/2.0957b89b.chunk.css",
-    "static/js/2.3341116e.chunk.js",
-    "static/css/main.29b40fd7.chunk.css",
-    "static/js/main.8265cb24.chunk.js"
+    "static/js/2.3b376dda.chunk.js",
+    "static/css/main.4a9b5134.chunk.css",
+    "static/js/main.35fab846.chunk.js"
   ]
 }
