@@ -6,14 +6,8 @@ import games from '../../../assets/HeadreIcons/supHeaderIcons/inc-games.svg'
 import market from '../../../assets/HeadreIcons/supHeaderIcons/market.svg'
 import {MenuItem} from "./menuItem/MenuItem";
 
-export const SupHeader = () => {
+export const SupHeader = ({menuItems}) => {
 
-    const menuItems= [
-        {name:'Home',icon:home},
-        {name:'Social',icon:cube},
-        {name:'Market',icon:games},
-        {name:'Tournements',icon:market},
-    ]
     return (
         <nav className={styles.nav}>
             <ul className={styles.navItems}>

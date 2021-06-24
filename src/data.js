@@ -12,6 +12,10 @@ import over from './assets/channels/over.png'
 import man from './assets/addNewfriend/man.png'
 import fairy from './assets/addNewfriend/fairy.png'
 import man2 from './assets/addNewfriend/man2.png'
+import home from "./assets/HeadreIcons/supHeaderIcons/icn-home.svg";
+import cube from "./assets/HeadreIcons/supHeaderIcons/cube.svg";
+import games from "./assets/HeadreIcons/supHeaderIcons/inc-games.svg";
+import market from "./assets/HeadreIcons/supHeaderIcons/market.svg";
 
 
 
@@ -78,6 +82,12 @@ const rootData = {
         {description:'Watch Dogs: Legion Uplay Key',price:'€37.99',newPrice:'62% OFF'},
         {description:'Vampire: The Masquerade - Bloodlines 2 Steam Key',price:'€22.50',newPrice:'62% OFF'},
         {description:'Football Manager 2021 Steam Key',price:'€22.50',newPrice:'62% OFF'},
+    ],
+    menuItems:[
+        {name:'Home',icon:home},
+        {name:'Social',icon:cube},
+        {name:'Market',icon:games},
+        {name:'Tournements',icon:market},
     ]
 }
 export default rootData

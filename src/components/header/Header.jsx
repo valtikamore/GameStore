@@ -4,14 +4,14 @@ import {SubHeader} from "./subHeader/subHeader";
 import {SupHeader} from "./supHeader/supHeader";
 
 
-export const Header = () => {
+export const Header = ({menuItems}) => {
     return (
         <div className={styles.headerWrapper}>
             <header className={styles.header}>
                 <div className={styles.blackBox}> </div>
                 <div className={styles.wrapper}>
                     <SubHeader/>
-                    <SupHeader/>
+                    <SupHeader menuItems={menuItems}/>
                 </div>
 
             </header>
