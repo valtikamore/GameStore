@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GameStore/static/css/main.4a9b5134.chunk.css",
-    "main.js": "/GameStore/static/js/main.35fab846.chunk.js",
-    "main.js.map": "/GameStore/static/js/main.35fab846.chunk.js.map",
+    "main.js": "/GameStore/static/js/main.9854b85c.chunk.js",
+    "main.js.map": "/GameStore/static/js/main.9854b85c.chunk.js.map",
     "runtime-main.js": "/GameStore/static/js/runtime-main.1949780f.js",
     "runtime-main.js.map": "/GameStore/static/js/runtime-main.1949780f.js.map",
     "static/css/2.0957b89b.chunk.css": "/GameStore/static/css/2.0957b89b.chunk.css",
@@ -49,6 +49,6 @@
     "static/css/2.0957b89b.chunk.css",
     "static/js/2.3b376dda.chunk.js",
     "static/css/main.4a9b5134.chunk.css",
-    "static/js/main.35fab846.chunk.js"
+    "static/js/main.9854b85c.chunk.js"
   ]
 }
